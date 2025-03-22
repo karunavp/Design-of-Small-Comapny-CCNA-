@@ -1,0 +1,141 @@
+MINI PROJECT OF DESIGN OF SMALL COMPANY WITH THREE FLOORS:-
+
+To design and implement the network for a small company with three floors, you'll need to ensure that each floor is well-connected and that each department has access to printers, Wi-Fi, and VLANs.
+
+Here's a step-by-step approach:-
+
+-1. Network Design
+
+Floor Layout and Requirements:
+
+-First Floor:
+
+•3 departments
+
+•1 switch
+
+•1 router
+
+•Wi-Fi access points
+
+•Printer for each department
+
+•VLANs for each department
+
+-Second Floor:
+
+•3 departments
+
+• 1 switch
+
+• 1 router
+
+•Wi-Fi access points
+
+•Printer for each department
+
+•VLANs for each department
+
+Third Floor:
+
+•2 departments
+
+•1 switch
+
+•1 router
+
+•Wi-Fi access points
+
+•Printer for each department
+
+•VLANs for each department
+
+floor. Configure each switch to handle VLAN traffic.
+
+3. Wi-Fi Access Points:
+
+Floor 1: Install access points to cover all areas.
+
+Floor 2: Install access points to cover all areas.
+
+Floor 3: Install access points to cover all areas.
+
+Ensure each access point is connected to the corresponding floor's switch and configured for the appropriate VLAN.
+
+4. Printers:
+
+Floor 1: One printer per department.
+
+Floor 2: One printer per department.
+
+Floor 3: One printer per department.
+
+Connect each printer to the corresponding switch and configure it with a static IP address if necessary.
+
+-3. VLAN Configuration VLANs:
+
+•Floor 1 VLANs: VLAN 10, VLAN 20, VLAN 30 (for each department)
+
+•Floor 2 VLANs: VLAN 40, VLAN 50, VLAN 60 (for each department)
+
+•Floor 3 VLANs: VLAN 70, VLAN 80 (for each department)
+
+Third Floor:
+
+•2 departments
+
+•1 switch
+
+•1 router
+
+•Wi-Fi access points
+
+•Printer for each department
+
+•VLANs for each department
+
+Inter-Floor Connectivity:
+
+-Routers: There should be three routers, one for each floor. These routers will connect each floor to the others and to the internet.
+
+-Switches: Each floor will have one switch to manage connections for the departments and devices on that floor.
+
+-2. Equipment and Configuration
+
+1. Routers:
+
+Router 1 (First Floor)
+
+Router 2 (Second Floor)
+
+Router 3 (Third Floor)
+
+Each router should be configured to route traffic between floors and to the internet.
+
+2. Switches:
+
+Switch 1 (First Floor)
+
+Switch 2 (Second Floor)
+
+Switch 3 (Third Floor)
+
+Each switch connects all devices on the respective floor. Configure each switch to handle VLAN traffic.
+
+-4 TECHNOLOGY USED:-
+
+1.#VLAN
+
+2.#ROUTER ON A STICK
+
+3.#OSPF
+
+4.#DHCP
+
+5.#TRUNKING .....AS SHOWN IN THE DIAGRAM.
+
+
+
+
+
+
